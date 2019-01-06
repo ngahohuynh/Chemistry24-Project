@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Chemistry24</string>
+    <string name="chemistry_24">chemistry 24</string>
+    <string name="btn_topic">Học theo chủ đề</string>
+    <string name="btn_test">Tổng hợp đề thi thử</string>
+    <string name="btn_speed_test">Kiểm tra nhanh lý thuyết</string>
+    <string name="topic1">chuyên đề 1: Axit - bazơ - muối</string>
+    <string name="theory">Lý thuyết</string>
+    <string name="exercise">Bài tập</string>
+    <string name="topic2">chuyên đề 2: phi kim</string>
+    <string name="topic3">chuyên đề 3: kim loại</string>
+    <string name="topic4">chuyên đề 4: Hidrocacbon</string>
+    <string name="topic5">chuyên đề 5: dẫn xuất của hidrocacbon</string>
+    <string name="test_collection">Tổng hợp đề thi thử</string>
+    <string name="test_id">đề số</string>
+    <string name="speed_test">Kiểm tra nhanh lý thuyết</string>
+    <string name="result">kết quả</string>
+    <string name="btn_answer">xem đáp án</string>
+    <string name="right_answers">Số câu trả lời đúng:</string>
+    <string name="time_result">Thời gian làm bài:</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="test">Kiểm tra</string>
+    <string name="close">Đóng</string>
+    <string name="submit">Nộp bài</string>
+    <string name="speed_test_dialog">Speed Test sẽ gồm 15 câu hỏi, thời gian là 5 phút. Bạn có muốn bắt đầu?</string>
+    <string name="no">Không</string>
+    <string name="yes">Có</string>
+    <string name="on_back_dialog">Bạn có muốn dừng thi?</string>
+    <string name="tv_question_num">Câu</string>
+    <string name="colon">:</string>
+    <string name="test_dialog">Đề thi thử sẽ gồm 40 câu, thời gian làm bài là 50 phút. Bạn có muốn bắt đầu?</string>
+    <string name="test_toast">Lướt sang trái để xem câu hỏi tiếp theo</string>
+    <string name="answer_list">Danh sách câu trả lời</string>
+    <string name="english">Tiếng Anh</string>
+    <string name="vietnamese">Tiếng Việt</string>
+    <string name="language">Chọn ngôn ngữ</string>
+    <string name="info1">Chemistry24 là ứng dụng hàng đầu cho bất kì những ai có nhu cầu ôn thi Hóa Học cho kì thi THPT.</string>
+    <string name="info2">Đây là một giải pháp tuyệt vời cho những bạn muốn  học mọi lúc mọi nơi. Chemistry24 cung cấp lộ trình cực kì khoa học từ học lý thuyết đến việc thực hành giải đề.</string>
+    <string name="info3">Nội dung trong ứng dụng bao gồm những lý thuyết được chắt lọc một cách kỹ càng và ngắn gọn. Ngoài ra còn có hàng ngàn câu hỏi theo từng chủ đề lý thuyết, hàng trăm bộ đề thi thử được chọn lọc từ các trường uy tín khắp cả nước. Và đặc biệt Chemistry24 đưa ra một chức năng đặc biệt giúp các bạn có thể ôn luyện lý thuyết một cách dễ dàng, mọi lúc mọi nơi.</string>
+    <string name="info4">BQT Chemistry24 tin rằng ứng dụng quý giá này sẽ giúp bạn tối ưu hóa quá trình ôn luyện, giúp các bạn đạt kết quả cao trong kì thi sắp tới!</string>
+    <string name="feedback">Bạn có đóng góp gì cho ứng dụng của chúng tôi?</string>
+    <string name="send">Gửi</string>
+    <string name="recipient">lesang458@gmail.com,hnga3511@gmail.com</string>
+    <string name="subject">Feedback Chemistry24</string>
+    <string name="send_fb">Gửi Phản Hồi</string>
+    <string name="error">Chưa nhập nội dung cần gửi!</string>
+</resources>

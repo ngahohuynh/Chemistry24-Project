@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context=".TestListFragment"
+    android:background="@color/colorPrimaryDark">
+
+    <LinearLayout
+        android:id="@+id/lyTiming"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="@dimen/list_frag_timer_size"
+            android:layout_height="@dimen/list_frag_timer_size"
+            android:layout_margin="@dimen/list_frag_timer_margin"
+            android:src="@drawable/timer" />
+
+        <TextView
+            android:id="@+id/tvTiming"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/list_frag_timer_margin"
+            android:text="50:00"
+            android:gravity="center_vertical"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="@dimen/list_frag_timer_text_size"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnTestList"
+        android:layout_width="@dimen/list_frag_button_width"
+        android:layout_height="@dimen/list_frag_button_height"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_margin="@dimen/list_frag_button_margin"
+        android:background="@color/colorPrimaryDark"
+        android:text="@string/test"
+        android:textSize="@dimen/list_frag_button_text_size"
+        android:textColor="@color/white"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/btnTestScore"
+        android:layout_width="@dimen/list_frag_button_width"
+        android:layout_height="@dimen/list_frag_button_height"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_margin="@dimen/list_frag_button_margin"
+        android:background="@color/colorPrimaryDark"
+        android:text="@string/result"
+        android:textSize="@dimen/list_frag_button_text_size"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:visibility="gone"/>
+
+    <Button
+        android:id="@+id/btnExerciseSubmit"
+        android:layout_width="@dimen/list_frag_button_width"
+        android:layout_height="@dimen/list_frag_button_height"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_margin="@dimen/list_frag_button_margin"
+        android:background="@color/colorPrimaryDark"
+        android:text="@string/submit"
+        android:textSize="@dimen/list_frag_button_text_size"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:visibility="gone"/>
+
+</RelativeLayout>

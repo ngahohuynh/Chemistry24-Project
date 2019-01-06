@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TestFragment"
+    android:orientation="vertical"
+    android:background="@drawable/chemistryformula"
+    android:backgroundTint="@color/colorPrimaryLight">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvFragQuestionNum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/test_frag_num_top"
+        android:gravity="center_horizontal"
+        android:text="Câu 1"
+        android:textSize="@dimen/test_frag_num_text_size"
+        android:textStyle="bold"
+        android:textColor="@android:color/holo_red_light"/>
+
+    <TextView
+        android:id="@+id/tvFragQuestion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/test_frag_question_margin"
+        android:text="ABC?"
+        android:textSize="@dimen/test_frag_question_text_size"
+        android:textColor="@color/black"
+        android:textStyle="italic"/>
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/radA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/test_frag_radio_margin"
+            android:text="abc"
+            android:textSize="@dimen/test_frag_question_text_size"/>
+        <RadioButton
+            android:id="@+id/radB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/test_frag_radio_margin"
+            android:text="abc"
+            android:textSize="@dimen/test_frag_question_text_size" />
+        <RadioButton
+            android:id="@+id/radC"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/test_frag_radio_margin"
+            android:text="abc"
+            android:textSize="@dimen/test_frag_question_text_size" />
+        <RadioButton
+            android:id="@+id/radD"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/test_frag_radio_margin"
+            android:text="abc"
+            android:textSize="@dimen/test_frag_question_text_size" />
+
+    </RadioGroup>
+
+    </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

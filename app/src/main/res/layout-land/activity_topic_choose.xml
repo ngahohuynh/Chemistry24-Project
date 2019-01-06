@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/chemistry_molecule_land"
+    android:backgroundTint="@color/colorPrimaryLight"
+    android:backgroundTintMode="screen">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/logo_height_display"
+        android:layout_marginLeft="@dimen/logo_margin_display"
+        android:layout_marginRight="@dimen/logo_margin_display"
+        android:src="@drawable/pngtree"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/topic_choose_margin"
+        android:layout_marginRight="@dimen/topic_choose_margin"
+        android:gravity="center"
+        android:text="@string/btn_topic"
+        android:textAllCaps="true"
+        android:textColor="@color/black"
+        android:textSize="@dimen/topic_choose_logo_text_size"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnTopic1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/topic_choose_margin"
+        android:layout_marginRight="@dimen/topic_choose_margin"
+        android:layout_marginTop="@dimen/topic_choose_button1_top"
+        android:background="@drawable/rounded_button"
+        android:text="@string/topic1"
+        android:textColor="@color/white"
+        android:textSize="@dimen/button_text_size" />
+
+    <Button
+        android:id="@+id/btnTheory1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/topic_choose_sub_button_margin"
+        android:layout_marginRight="@dimen/topic_choose_sub_button_margin"
+        android:text="@string/theory"
+        android:textSize="@dimen/topic_choose_sub_button_text_size"
+        android:visibility="gone"/>
+
+    <Button
+        android:id="@+id/btnExercise1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/topic_choose_sub_button_margin"
+        android:layout_marginRight="@dimen/topic_choose_sub_button_margin"
+        android:text="@string/exercise"
+        android:textSize="@dimen/topic_choose_sub_button_text_size"
+        android:visibility="gone"/>
+
+    <Button
+        android:id="@+id/btnTopic2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/topic_choose_margin"
+        android:layout_marginRight="@dimen/topic_choose_margin"
+        android:layout_marginTop="@dimen/topic_choose_button_top"
+        android:background="@drawable/rounded_button"
+        android:text="@string/topic2"
+        android:textColor="@color/white"
+        android:textSize="@dimen/button_text_size" />
+
+    <Button
+        android:id="@+id/btnTheory2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/topic_choose_sub_button_margin"
+        android:layout_marginRight="@dimen/topic_choose_sub_button_margin"
+        android:text="@string/theory"
+        android:textSize="@dimen/topic_choose_sub_button_text_size"
+        android:visibility="gone"/>
+
+    <Button
+        android:id="@+id/btnExercise2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/topic_choose_sub_button_margin"
+        android:layout_marginRight="@dimen/topic_choose_sub_button_margin"
+        android:text="@string/exercise"
+        android:textSize="@dimen/topic_choose_sub_button_text_size"
+        android:visibility="gone"/>
+
+    <Button
+        android:id="@+id/btnTopic3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/topic_choose_margin"
+        android:layout_marginRight="@dimen/topic_choose_margin"
+        android:layout_marginTop="@dimen/topic_choose_button_top"
+        android:background="@drawable/rounded_button"
+        android:text="@string/topic3"
+        android:textColor="@color/white"
+        android:textSize="@dimen/button_text_size" />
+
+    <Button
+        android:id="@+id/btnTheory3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/topic_choose_sub_button_margin"
+        android:layout_marginRight="@dimen/topic_choose_sub_button_margin"
+        android:text="@string/theory"
+        android:textSize="@dimen/topic_choose_sub_button_text_size"
+        android:visibility="gone"/>
+
+    <Button
+        android:id="@+id/btnExercise3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/topic_choose_sub_button_margin"
+        android:layout_marginRight="@dimen/topic_choose_sub_button_margin"
+        android:text="@string/exercise"
+        android:textSize="@dimen/topic_choose_sub_button_text_size"
+        android:visibility="gone"/>
+
+    <Button
+        android:id="@+id/btnTopic4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/topic_choose_margin"
+        android:layout_marginRight="@dimen/topic_choose_margin"
+        android:layout_marginTop="@dimen/topic_choose_button_top"
+        android:background="@drawable/rounded_button"
+        android:text="@string/topic4"
+        android:textColor="@color/white"
+        android:textSize="@dimen/button_text_size" />
+
+    <Button
+        android:id="@+id/btnTheory4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/topic_choose_sub_button_margin"
+        android:layout_marginRight="@dimen/topic_choose_sub_button_margin"
+        android:text="@string/theory"
+        android:textSize="@dimen/topic_choose_sub_button_text_size"
+        android:visibility="gone"/>
+
+    <Button
+        android:id="@+id/btnExercise4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/topic_choose_sub_button_margin"
+        android:layout_marginRight="@dimen/topic_choose_sub_button_margin"
+        android:text="@string/exercise"
+        android:textSize="@dimen/topic_choose_sub_button_text_size"
+        android:visibility="gone"/>
+
+    <Button
+        android:id="@+id/btnTopic5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/topic_choose_margin"
+        android:layout_marginRight="@dimen/topic_choose_margin"
+        android:layout_marginTop="@dimen/topic_choose_button_top"
+        android:background="@drawable/rounded_button"
+        android:text="@string/topic5"
+        android:textColor="@color/white"
+        android:textSize="@dimen/button_text_size" />
+
+    <Button
+        android:id="@+id/btnTheory5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/topic_choose_sub_button_margin"
+        android:layout_marginRight="@dimen/topic_choose_sub_button_margin"
+        android:text="@string/theory"
+        android:textSize="@dimen/topic_choose_sub_button_text_size"
+        android:visibility="gone"/>
+
+    <Button
+        android:id="@+id/btnExercise5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/topic_choose_sub_button_margin"
+        android:layout_marginRight="@dimen/topic_choose_sub_button_margin"
+        android:text="@string/exercise"
+        android:textSize="@dimen/topic_choose_sub_button_text_size"
+        android:visibility="gone"/>
+
+    </LinearLayout>
+
+</ScrollView>

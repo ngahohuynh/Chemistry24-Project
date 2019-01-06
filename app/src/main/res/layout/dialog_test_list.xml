@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <GridView
+        android:id="@+id/gvTestList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/list_dialog_padding"
+        android:numColumns="3"
+        android:horizontalSpacing="@dimen/list_dialog_spacing">
+    </GridView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/btnTestClose"
+            android:layout_width="@dimen/list_dialog_button_width"
+            android:layout_height="@dimen/list_dialog_button_height"
+            android:text="@string/close"
+            android:textSize="@dimen/button_text_size"
+            android:layout_gravity="center"/>
+
+        <Button
+            android:id="@+id/btnTestSubmit"
+            android:layout_width="@dimen/list_dialog_button_width"
+            android:layout_height="@dimen/list_dialog_button_height"
+            android:layout_centerHorizontal="true"
+            android:text="@string/submit"
+            android:textSize="@dimen/button_text_size"
+            android:layout_toEndOf="@id/btnTestClose"
+            android:layout_toRightOf="@id/btnTestClose"/>
+    </RelativeLayout>
+
+</LinearLayout>

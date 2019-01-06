@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Chemistry24</string>
+    <string name="chemistry_24">chemistry 24</string>
+    <string name="btn_topic">Learn by Topic</string>
+    <string name="btn_test">Mock Exams Collection</string>
+    <string name="btn_speed_test">Theory Speed Test</string>
+    <string name="topic1">Topic 1: Acid - Base - Pickle</string>
+    <string name="theory">Theory</string>
+    <string name="exercise">Exercises</string>
+    <string name="topic2">Topic 2: Nonmetal</string>
+    <string name="topic3">Topic 3: Metal</string>
+    <string name="topic4">Topic 4: Hydrocarbons</string>
+    <string name="topic5">Topic 5: Hydrocarbon Derivatives</string>
+    <string name="test_collection">Mock Exams Collection</string>
+    <string name="test_id">Test</string>
+    <string name="speed_test">Theory Speed Test</string>
+    <string name="result">Result</string>
+    <string name="btn_answer">See Answers</string>
+    <string name="right_answers">Right answers:</string>
+    <string name="time_result">Total time:</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="test">Check</string>
+    <string name="close">Close</string>
+    <string name="submit">Submit</string>
+    <string name="speed_test_dialog">Speed Test includes 15 questions, with the timeline being 5 minutes. Do you want to start now?</string>
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+    <string name="on_back_dialog">Are you sure you want to quit this test?</string>
+    <string name="tv_question_num">Question</string>
+    <string name="colon">:</string>
+    <string name="test_dialog">The exam includes 40 questions, with the timeline being 50 minutes. Do you want to start now?</string>
+    <string name="test_toast">Swipe to the left for the next questions</string>
+    <string name="answer_list">List of your answers</string>
+    <string name="english">English</string>
+    <string name="vietnamese">Vietnamese</string>
+    <string name="language">Select language</string>
+    <string name="info1">Chemistry24 is a learning application for everyone wish to review chemistry knowledge for the university entrance examination.</string>
+    <string name="info2">This is a good solution for studying anywhere and at anytime. Chemistry24 provides a clear and reasonable path by covering both theories and exercises.</string>
+    <string name="info3">The application includes thoroughly brief lessons with thousands of questions. It also has hundreds of tests chosen from well-known high schools all over the country. And Chemistry24 has a special method for you to review anywhere and at anytime easily.</string>
+    <string name="info4">The Admins of Chemistry24 hope that this application will help you review optimally and get high results in the upcoming exams.</string>
+    <string name="feedback">Do you have any feedback on our application?</string>
+    <string name="send">Send</string>
+    <string name="recipient">lesang458@gmail.com,hnga3511@gmail.com</string>
+    <string name="subject">Feedback Chemistry24</string>
+    <string name="send_fb">Send Feedback</string>
+    <string name="error">Please enter your message!</string>
+</resources>

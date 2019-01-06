@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/molecule"
+    android:backgroundTint="@color/colorPrimaryLight"
+    android:backgroundTintMode="screen">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/logo_height_display"
+        android:layout_marginLeft="@dimen/logo_margin_display"
+        android:layout_marginRight="@dimen/logo_margin_display"
+        android:src="@drawable/pngtree"/>
+
+    <TextView
+        android:id="@+id/tvSpeedTestQuestion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/speed_test_frag_question_top"
+        android:layout_marginLeft="@dimen/speed_test_frag_margin"
+        android:layout_marginRight="@dimen/speed_test_frag_margin"
+        android:text="Câu 1: Chất nào sau đây thuộc chất điện li mạnh?"
+        android:textSize="@dimen/speed_test_frag_question_text_size"
+        android:textColor="@color/black" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/speed_test_frag_layout_height"
+        android:orientation="vertical"
+        android:weightSum="2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/speed_test_frag_margin"
+        android:layout_marginRight="@dimen/speed_test_frag_margin"
+        android:layout_marginTop="@dimen/speed_test_frag_layout_top"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:weightSum="2">
+        <Button
+            android:id="@+id/btnChoiceA"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="A. H2O"
+            android:textSize="@dimen/speed_test_frag_button_text_size"
+            android:textAllCaps="false"/>
+        <Button
+            android:id="@+id/btnChoiceB"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="B. C2H5OH"
+            android:textSize="@dimen/speed_test_frag_button_text_size"
+            android:textAllCaps="false"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/speed_test_frag_margin"
+        android:layout_marginRight="@dimen/speed_test_frag_margin"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:weightSum="2">
+        <Button
+            android:id="@+id/btnChoiceC"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="C. NaCl"
+            android:textSize="@dimen/speed_test_frag_button_text_size"
+            android:textAllCaps="false"/>
+        <Button
+            android:id="@+id/btnChoiceD"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="D. CH3COOH"
+            android:textSize="@dimen/speed_test_frag_button_text_size"
+            android:textAllCaps="false"/>
+    </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

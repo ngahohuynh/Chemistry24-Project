@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="main_logo_height">350dp</dimen>
+    <dimen name="main_logo_text_size">40sp</dimen>
+    <!--for landscape layout-->
+    <dimen name="main_logo_height_land">250dp</dimen>
+
+    <dimen name="home_logo_height">187dp</dimen>
+    <dimen name="home_logo_margin">20dp</dimen>
+    <dimen name="home_app_text_size">30sp</dimen>
+    <dimen name="home_app_margin">50dp</dimen>
+    <dimen name="home_button_margin">30dp</dimen>
+    <dimen name="home_topic_button_top">50dp</dimen>
+    <dimen name="home_button_top">20dp</dimen>
+    <dimen name="home_extra_button_size">50dp</dimen>
+    <dimen name="home_info_text_size">20sp</dimen>
+    <!--for landscape layout-->
+    <dimen name="home_logo_width_land">300dp</dimen>
+
+    <dimen name="button_text_size">18sp</dimen>
+
+    <dimen name="logo_height_display">120dp</dimen>
+    <dimen name="logo_margin_display">10dp</dimen>
+
+    <dimen name="topic_choose_margin">15dp</dimen>
+    <dimen name="topic_choose_sub_button_margin">40dp</dimen>
+    <dimen name="topic_choose_logo_text_size">24sp</dimen>
+    <dimen name="topic_choose_button1_top">30dp</dimen>
+    <dimen name="topic_choose_button_top">10dp</dimen>
+    <dimen name="topic_choose_sub_button_text_size">16sp</dimen>
+
+    <dimen name="theory_padding">10dp</dimen>
+    <dimen name="theory_name_text_size">30sp</dimen>
+    <dimen name="theory_text_size">20sp</dimen>
+
+    <dimen name="list_dialog_padding">10dp</dimen>
+    <dimen name="list_dialog_spacing">5dp</dimen>
+    <dimen name="list_dialog_button_width">120dp</dimen>
+    <dimen name="list_dialog_button_height">50dp</dimen>
+
+    <dimen name="result_dialog_title_top">10dp</dimen>
+    <dimen name="result_dialog_title_size">30sp</dimen>
+    <dimen name="result_dialog_layout_top">10dp</dimen>
+    <dimen name="result_dialog_text_padding">10dp</dimen>
+    <dimen name="result_dialog_text_size">20sp</dimen>
+    <dimen name="result_dialog_button_size">80dp</dimen>
+    <dimen name="result_dialog_button_margin">10dp</dimen>
+
+    <dimen name="test_frag_num_top">10dp</dimen>
+    <dimen name="test_frag_num_text_size">30sp</dimen>
+    <dimen name="test_frag_question_margin">30dp</dimen>
+    <dimen name="test_frag_question_text_size">20sp</dimen>
+    <dimen name="test_frag_radio_margin">4dp</dimen>
+
+    <dimen name="speed_test_frag_margin">10dp</dimen>
+    <dimen name="speed_test_frag_question_top">50dp</dimen>
+    <dimen name="speed_test_frag_question_text_size">20sp</dimen>
+    <dimen name="speed_test_frag_layout_height">250dp</dimen>
+    <dimen name="speed_test_frag_layout_top">20dp</dimen>
+    <dimen name="speed_test_frag_button_text_size">14sp</dimen>
+
+    <dimen name="list_frag_timer_size">80dp</dimen>
+    <dimen name="list_frag_timer_margin">10dp</dimen>
+    <dimen name="list_frag_timer_text_size">40sp</dimen>
+    <dimen name="list_frag_button_width">150dp</dimen>
+    <dimen name="list_frag_button_height">80dp</dimen>
+    <dimen name="list_frag_button_margin">10dp</dimen>
+    <dimen name="list_frag_button_text_size">28sp</dimen>
+
+</resources>
